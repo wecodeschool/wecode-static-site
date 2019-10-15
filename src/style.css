@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: #0e1b46 url("../images/background.png") -400px -600px no-repeat;
+  color: #fff;
+}
+
+header {
+  padding: 16px 0;
+  margin-bottom: 130px;
+}
+
+header img {
+  max-width: 164px;
+}
+
+h1 {
+  font-family: Cerebri Sans;
+  font-size: 64px;
+  line-height: 81px;
+  padding-right: 60px;
+  font-weight: bold;
+  margin-bottom: 140px;
+  letter-spacing: -17px;
+}
+
+h1 u {
+  background: url("../images/border.png") 0 52px no-repeat;
+  /* border-bottom: 20px solid #275ce1; */
+  /* position: relative; */
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+h1 span {
+  padding-right: 16px;
+}
+
+p {
+  font-family: Cerebri Sans;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.company-logos {
+  margin: 30px 0;
+  display: block;
+  max-width: 380px;
+}
+
+footer {
+  margin-top: 30px;
+  border-top: 1px solid white;
+}

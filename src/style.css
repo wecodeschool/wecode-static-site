@@ -36,26 +36,15 @@ header img {
   max-width: 164px;
 }
 
-h1 {
+h1,
+h2 {
   font-family: Cerebri Sans;
-  font-size: 64px;
-  line-height: 81px;
-  padding-right: 60px;
-  font-weight: bold;
-  margin-bottom: 140px;
-  letter-spacing: -17px;
 }
 
-h1 u {
-  background: url("../images/border.png") 0 52px no-repeat;
-  /* border-bottom: 20px solid #275ce1; */
-  /* position: relative; */
-  text-decoration: none;
-  letter-spacing: 0;
-}
-
-h1 span {
-  margin-right: 16px;
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
 }
 
 p {
@@ -63,6 +52,11 @@ p {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.5;
+}
+
+p a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .company-logos {
@@ -74,6 +68,39 @@ p {
 .program img {
   height: 96px;
   margin-bottom: 10px;
+}
+
+.program p {
+  padding: 16px 0;
+}
+
+.program-price {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.program-price:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.program-price span {
+  border-top: 1px solid #4a5573;
+  font-family: PT Mono;
+  line-height: 20px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.program-price strong {
+  font-family: Cerebri Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
 }
 
 .program-emojis {
@@ -100,7 +127,64 @@ p {
   border-radius: 2px;
 }
 
+.youtube-channel {
+  margin-top: 80px;
+}
+
+.youtube-channel a {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 81px;
+  padding-right: 60px;
+  font-weight: bold;
+  margin-bottom: 140px;
+  letter-spacing: -17px;
+}
+
+.title u {
+  background: url("../images/border.png") 0 52px no-repeat;
+  /* border-bottom: 20px solid #275ce1; */
+  /* position: relative; */
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+.title span {
+  margin-right: 16px;
+}
+
 footer {
-  margin-top: 30px;
-  border-top: 1px solid white;
+  margin-top: 100px;
+  padding: 20px 0;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+}
+
+footer li a {
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.6;
+  transition: all 200ms ease-in-out;
+}
+
+footer li a:hover {
+  opacity: 1;
+  color: #fff;
 }

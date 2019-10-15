@@ -55,7 +55,7 @@ h1 u {
 }
 
 h1 span {
-  padding-right: 16px;
+  margin-right: 16px;
 }
 
 p {
@@ -69,6 +69,35 @@ p {
   margin: 30px 0;
   display: block;
   max-width: 380px;
+}
+
+.program img {
+  height: 96px;
+  margin-bottom: 10px;
+}
+
+.program-emojis {
+  font-size: 32px;
+  line-height: 120%;
+  margin: 30px 0 10px;
+}
+
+.program-link {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "PT Mono", monospace;
+  display: block;
+  text-decoration: underline;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
+
+.program-link:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #11193c;
+  padding: 0 0 0 5px;
+  border-radius: 2px;
 }
 
 footer {

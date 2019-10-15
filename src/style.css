@@ -41,6 +41,11 @@ h2 {
   font-family: Cerebri Sans;
 }
 
+h1 {
+  text-indent: -9999em;
+  position: absolute;
+}
+
 h2 {
   font-weight: 500;
   font-size: 24px;
@@ -57,6 +62,15 @@ p {
 p a {
   color: #fff;
   text-decoration: underline;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 10px 26px;
+}
+
+.description {
+  margin-bottom: 60px;
 }
 
 .company-logos {
@@ -135,6 +149,15 @@ p a {
   font-size: 16px;
 }
 
+.description h2 {
+  font-size: 64px;
+  line-height: 81px;
+  font-family: Cerebri Sans;
+  text-decoration: underline;
+  text-decoration-color: #1d6ef8;
+  font-weight: bold;
+}
+
 .title {
   font-size: 64px;
   line-height: 81px;
@@ -169,6 +192,10 @@ footer p a {
   text-decoration: none;
 }
 
+footer ul {
+  text-align: right;
+}
+
 footer li {
   display: inline;
   list-style: none;
@@ -187,4 +214,24 @@ footer li a {
 footer li a:hover {
   opacity: 1;
   color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    display: none;
+  }
+
+  .description h2 {
+    display: block;
+  }
+  footer p,
+  footer ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .description h2 {
+    display: none;
+  }
 }

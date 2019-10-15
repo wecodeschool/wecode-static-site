@@ -152,6 +152,7 @@ p a {
 .description h2 {
   font-size: 64px;
   line-height: 81px;
+  text-align: center;
   font-family: Cerebri Sans;
   text-decoration: underline;
   text-decoration-color: #1d6ef8;
@@ -223,6 +224,14 @@ footer li a:hover {
 
   .description h2 {
     display: block;
+  }
+
+  .description img {
+    margin: 40px auto;
+  }
+
+  .description p {
+    text-align: center;
   }
   footer p,
   footer ul {

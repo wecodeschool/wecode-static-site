@@ -217,7 +217,7 @@ footer li a:hover {
   color: #fff;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .title {
     display: none;
   }
@@ -239,7 +239,7 @@ footer li a:hover {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .description h2 {
     display: none;
   }
